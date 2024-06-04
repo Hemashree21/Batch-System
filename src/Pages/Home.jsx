@@ -11,7 +11,7 @@ const Home = () => {
     <div className='py-6 px-10 lg:px-20 w-full flex flex-col lg:flex-row items-center justify-between mt-10'>
         <div className='lg:w-1/2 w-full lg:pt-14'>
             <h1 className='lg:text-7xl text-5xl'>Make The Best Financial Decisions</h1>
-            <p className='text-xl text-gray-500 my-4'>Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.</p>
+            <p className='text-xl text-gray-500 my-4'>I have used React and Tailwind. I have also used json data for rendering the text. Made the page responsive and implemented it in dark mode as well. I have also added few animations here and there.</p>
             <div className='flex flex-col sm:flex-row items-start sm:items-center gap-10'>
                 <button className='text-white px-6 py-4 flex justify-center items-center gap-2 bg-black rounded-md hover:bg-slate-800 hover:duration-300'>Get Started <span className='hover:transform hover:translate-x-2 transition-transform duration-300'><MdArrowRightAlt size={20}/></span></button>
                 <div className='flex items-center gap-3 cursor-pointer'><IoPlayCircleOutline size={50} className='hover:scale-125 hover:duration-300'/><span className='text-xl cursor-pointer'>Watch Video</span></div>
