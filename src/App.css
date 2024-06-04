@@ -1,0 +1,42 @@
+#dark {
+  background-color: rgb(24, 24, 24);
+  color: white;
+}
+
+#dark button {
+  background-color: white;
+  color: black;
+}
+
+#dark button:hover {
+  background: rgb(208, 208, 208);
+  transition-duration: 300ms;
+}
+
+#dark input {
+  background: black;
+  border-radius: 8px 0 0 8px;
+}
+
+#dark .subscribe {
+  border-radius: 0 8px 8px 0;
+}
+
+#dark .uifry {
+  filter: invert(100%);
+  mix-blend-mode: color-dodge;
+}
+
+.fade-line {
+  display: block;
+  margin: auto;
+  height: 2px;
+  width: 85%; 
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), black, rgba(0, 0, 0, 0));
+}
+
+#dark .fade-line {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white, rgba(255, 255, 255, 0));
+}
+
+
